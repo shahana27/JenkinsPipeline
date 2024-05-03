@@ -13,7 +13,7 @@ pipeline {
             steps {
                 println "Task: Run unit tests to ensure the code functions as expected"
                 println "Suggested Tool: JUnit"
-                println "Task: Run integration tests to ensure the different components work together"
+                println "Task: Run integration tests to ensure the different components work together "
                 println "Suggested Tool: Selenium"
             }
             post {
