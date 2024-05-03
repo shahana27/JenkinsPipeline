@@ -38,7 +38,7 @@ pipeline {
 
         stage('Code Analysis') {
             steps {
-                println "Task: Analyze the code and ensure it meets industry standards"
+                println "Task: Analyze the code and ensure it meets industry standards "
                 println "Suggested Tool: SonarQube"
             }
         }
