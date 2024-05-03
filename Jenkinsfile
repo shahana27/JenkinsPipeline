@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                println "Task: Compile and package the code"
+                println "Task: Compile and package the code "
                 println "Suggested Tool: Maven"
             }
         }
